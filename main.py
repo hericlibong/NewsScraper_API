@@ -8,6 +8,8 @@ from utils import regions
 
 
 app = FastAPI(title='News Scraper')
+
+#scraper instance
 news = Scraper()
 
 
@@ -21,12 +23,12 @@ class Article(BaseModel):
 
 class ArticleResponse(BaseModel):
     articles : List[Article]
-    
+# welcome endpoint   
 @app.get("/")
 async def start_endpoint():
     return {"message" : "Hello News Scraper"}
 
-# get full liste scraped articles
+# get full liste scraped articles or search keywords 
 @app.get("/articles", response_model=ArticleResponse)
 async def read_full_articles(
     keyword : Optional[str] = Query(None, description="A keyword to search for in the title or preview of all the articles.")
