@@ -1,5 +1,8 @@
 # News Feed Sraper API with FastAPI
 
+[![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/python-3.10-blue.svg)
+
 #### Presentation
 
 In this repo I demonstrate how to easily build your own scraping API using `FastAPI` and the `Request-html` library. And how to build a basic news feed updated in real time.
