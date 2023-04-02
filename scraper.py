@@ -44,7 +44,7 @@ class Scraper():
         
 #tests scraper       
 #news = Scraper()
-# #for reg in regions:
+#for reg in regions:
 #print(news.scraper_data(regions[6]))
 
 
