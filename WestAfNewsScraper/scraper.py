@@ -1,5 +1,5 @@
 from requests_html import HTMLSession
-from utils import region_list
+from utils import regions
 
 
 class Scraper():
@@ -42,15 +42,10 @@ class Scraper():
         return articles_items
            
         
-regions = ['african-island-nations', 
-           'central-africa', 'east-africa', 
-           'horn-of-africa', 'north-africa', 
-           'southern-africa', 'west-africa']       
-        
-        
-# news = Scraper()
-# #for reg in regions:
-# print(news.scraper_data(regions[6]))
+#tests scraper       
+#news = Scraper()
+#for reg in regions:
+#print(news.scraper_data(regions[6]))
 
 
 
