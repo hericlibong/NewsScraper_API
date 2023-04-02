@@ -1,6 +1,0 @@
-
-fastapi==0.95.0
-pydantic==1.10.7
-requests-html==0.10.0
-uvicorn==0.21.1
-
